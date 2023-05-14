@@ -2,9 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import isOdd from 'is-odd'
+
 
 function App() {
   const [count, setCount] = useState(0)
+
+const ovgekt = {
+  neim: 'nonvre',
+  heda:  25
+}
 
   return (
     <>
@@ -33,3 +40,4 @@ function App() {
 }
 
 export default App
+console.log(isOdd(1)); 

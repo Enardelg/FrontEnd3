@@ -9,11 +9,11 @@ Asegurate de que el `.gitingore` contenga `node_modules`
 
 3. Sube el proyecto a github
 
-4. Realiza cambios en algun archivo y fijate como se visualiza en el source control de vscode
+4. Realiza cambios en algun archivo y fijate como se visualiza en el source control de vscode //--> figura una M de modificado
 
-5. Agrega un nuevo archivo `.env` en el `src` y vuelve a observar los cambios
+5. Agrega un nuevo archivo `.env` en el `src` y vuelve a observar los cambios //--> figura una U de sin seguimiento
 
-6. Agrega `.env` al `.gitignore` y vuelve a observar los cambios
+6. Agrega `.env` al `.gitignore` y vuelve a observar los cambios  //--> se ignora el estado de .env y se ve una M en gitignore
 
 ---
 
@@ -44,17 +44,17 @@ Si hovereas sobre el error veras que te dice que no se puede usar `target="_blan
 
 4. Resuelve el error agregando `rel="noopener noreferrer"` al anchor
 
-5. Declara una variable y no la uses, mira el error que te da eslint
+5. Declara una variable y no la uses, mira el error que te da eslint //--> error de no usar la variable
 
-6. Escribe el siguiente codigo y mira el error que te da eslint
+6. Escribe el siguiente codigo y mira el error que te da eslint  //-->no existe ese componente
 
 ```js
 <CustomComponent />
 ```
 
-7. Escribe el siguiente codigo y mira el error que te da eslint
+7. Escribe el siguiente codigo y mira el error que te da eslint // --> error de sintaxis, falta "," al terminar "nonvre" y ":" al terminar "heda"
 
-```js
+```js 
 const ovgekt = {
   neim: 'nonvre'
   heda  25,
@@ -65,7 +65,7 @@ const ovgekt = {
 
 ### Practica de dependencias
 
-1. Instala la siguiente dependencia [is-odd](https://www.npmjs.com/package/is-odd)
+1. Instala la siguiente dependencia [is-odd](https://www.npmjs.com/package/is-odd) // función para verificar si es impar
 `npm i is-odd`
 2. Utiliza la biblioteca en el proyecto
 `import isOdd from 'is-odd';`
