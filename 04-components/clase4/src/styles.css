@@ -1,0 +1,28 @@
+body{
+    background-color:#ee7a40;
+    justify-content: center;
+    color: black;
+}
+
+.card-padre{
+    border-radius: 8px;
+    border: 1px solid rgb(14, 13, 13);
+    margin-top: 15px;
+}
+
+.card-padre h1{
+    border-bottom: 1px solid #080808;
+    background-color: #de2e03;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0;
+}
+.card-padre .card-body{
+    background-color: #ff7a38;
+    border-radius: 8px;
+}
+.card-padre .card-footer{
+    background-color: #ffa460;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
