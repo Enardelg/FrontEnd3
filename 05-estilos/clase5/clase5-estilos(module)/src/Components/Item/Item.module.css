@@ -1,0 +1,11 @@
+.item{
+    list-style: none;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #EFB786;
+}
+
+:global(.compact-theme) .item {
+    padding: 8px;
+}

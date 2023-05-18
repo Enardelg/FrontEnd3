@@ -1,0 +1,16 @@
+.list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    box-sizing: border-box;
+    background-color: #ED413E;
+    border-radius: 10px;
+    border: solid 1px 	#E3DAC9;
+    padding: 16px;
+    color: #722F37;
+}
+
+:global(.compact-theme) .list {
+    gap: 8px;
+}
