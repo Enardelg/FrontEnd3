@@ -1,0 +1,36 @@
+.cardProduct{
+    background-color: #3b83bd;
+    border: solid 1px #21476b;
+    margin-top: 16px;
+    border-radius: 10px;
+    color:#15273c
+}
+
+.cardProduct h2 {
+    background-color:#97c0e2;
+    display: inline-block;
+    border-radius: 9px;
+    padding: 5px;
+    color:black;
+    border: solid 1px  #235381
+}
+
+.cardProduct p {
+    background-color: #e6eff8;
+    border-radius: 9px;
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px  #235381
+}
+
+.cardProduct button{
+    background: -webkit-linear-gradient(#e6eff8, #97c0e2); /* Safari/Chrome */
+    border: solid 1px #235381;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.cardProduct button:hover{
+    background: -webkit-linear-gradient(#2a679f,#21476b); /* Safari/Chrome */
+    color: #e6eff8;
+    cursor: pointer;
+}
