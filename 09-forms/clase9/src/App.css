@@ -1,0 +1,58 @@
+body {
+  background: -webkit-linear-gradient(85deg,#191919,#e3e3e3); /* Safari/Chrome */
+  height: 100vh;
+}
+
+
+.form-container{
+text-align: center;
+justify-content: center;
+background: -webkit-linear-gradient(85deg, #ea7d28,#fef1d6); /* Safari/Chrome */
+border-radius: 10px;
+box-shadow: 0 0 15px #0a0a0a;
+color: #313131;
+padding: 2px;
+}
+
+.form-card{
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  gap: 20px;
+  padding: 5px;
+  border-radius:  10px;
+  margin: 10px;
+  box-shadow: 0 0 5px #0a0a0a;
+  display: flex;
+}
+
+input{
+  border-radius: 8px;
+}
+
+button{
+  background: -webkit-linear-gradient(#f7a340,#e86f11); /* Safari/Chrome */
+  border-radius: 8px;
+}
+
+.form-container{
+  margin-top: 20px;
+}
+.valores {
+  background: -webkit-linear-gradient(#fef1d6,#fac677); /* Safari/Chrome */
+  border-radius: 10px;
+  border: solid 1px #be5410;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  gap: 30px;
+}
+
+.valores-input{
+  box-shadow: 0 0 5px #9b440e;
+  padding: 10px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
