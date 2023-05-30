@@ -54,7 +54,7 @@ function App() {
         <br/>
         <button type='submit'>Submit</button>
       </form>
-      {mensajeError && <p>{mensajeError}</p>}
+      {mensajeError && <p className='mensaje-error'>{mensajeError}</p>}
       <h3>Valores ingresados:</h3>
       <ul className='valores'>
         {valores.map((valor) => (

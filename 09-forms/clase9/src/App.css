@@ -14,6 +14,7 @@ color: #313131;
 padding: 2px;
 }
 
+
 .form-card{
   border: solid 1px black;
   display: flex;
@@ -26,6 +27,14 @@ padding: 2px;
   margin: 10px;
   box-shadow: 0 0 5px #0a0a0a;
   display: flex;
+}
+
+.mensaje-error {
+  border: solid 1px red;
+  color: red;
+  display:inline-block;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 input{
@@ -48,6 +57,7 @@ button{
   padding: 10px;
   margin: 10px;
   gap: 30px;
+  list-style-type: none;
 }
 
 .valores-input{
