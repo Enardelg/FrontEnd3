@@ -1,0 +1,20 @@
+.card{
+color: black;
+display: flex;
+box-shadow: 0 0 10px rgb(60, 233, 245);
+justify-content: wrap;
+border-radius: 10px;
+flex-wrap: wrap;
+gap:10px;
+padding: 10px;
+}
+
+.card p{
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(158, 225, 230);
+    margin: 0;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+

@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: -webkit-linear-gradient(#00b2c0,#105c69); /* Safari/Chrome */
+  color: #83cfd4;
+}
+
+h1{
+  background-color: #0d707d;
+  box-shadow: 0 0 5px rgb(25, 27, 27);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 8px;
+}
