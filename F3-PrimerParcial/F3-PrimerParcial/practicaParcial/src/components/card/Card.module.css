@@ -1,0 +1,24 @@
+.card{
+background: -webkit-linear-gradient(85deg, #60ce87,#d1f1dc); /* Safari/Chrome */
+border-radius: 10px;
+box-shadow: 0 0 10px #0a0a0a;
+color: #222b26;
+padding: 2px;
+list-style: none;
+margin: 20px;
+display: flex;
+display: inline-block;
+}
+
+.valoresInput{
+    list-style: none;
+}
+
+.lista{
+    border: 1px solid #052510;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px #0a0a0a;
+    display: inline-block;
+    margin: 15px
+}
