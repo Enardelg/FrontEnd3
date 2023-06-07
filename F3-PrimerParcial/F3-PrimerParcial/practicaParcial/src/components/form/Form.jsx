@@ -6,6 +6,7 @@ const Form = ({onSubmit}) => {
   const [artista, setArtista] = useState("");
   const [cancion, setCancion] = useState("");
   const [error, setError] = useState("");
+  const [submitted, setSubmitted] = useState(); 
 
 
 
@@ -20,6 +21,11 @@ const Form = ({onSubmit}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    setSubmitted({
+      artista: artista,
+      cancion: cancion
+    })
+
     if (artista.trim().length < 3 || artista.trim().startsWith(" ")) {
       setError("Por favor, ingresa un artista con un mínimo de tres caracteres");
       return;
@@ -33,6 +39,7 @@ const Form = ({onSubmit}) => {
     setArtista("");
     setCancion("");
     setError("");
+    setSubmitted(false)
   };
 
   return (
@@ -61,8 +68,11 @@ const Form = ({onSubmit}) => {
       </form>
       {error && <p className={styles.error}>{error}</p>}
 
-      {!error && artista && cancion && <Card artista={artista} cancion={cancion}/>}
 
+      {submitted ? 
+        <Card artista = {submitted.artista}  cancion = {submitted.cancion}/>
+        :undefined
+    }
     </div>
   );
 };

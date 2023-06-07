@@ -12,6 +12,9 @@ display: inline-block;
 
 .valoresInput{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lista{
@@ -21,4 +24,15 @@ display: inline-block;
     box-shadow: 0 0 10px #0a0a0a;
     display: inline-block;
     margin: 15px
+}
+
+.deleteButton{
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.deleteButton:hover{
+    background: -webkit-linear-gradient(85deg, #bb1313,#525050); /* Safari/Chrome */
+    border-radius: 10px;
+    color: white;
 }

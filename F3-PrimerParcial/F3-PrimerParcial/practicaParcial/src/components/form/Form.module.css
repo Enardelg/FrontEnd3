@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  justify-content: center;
+  align-items: center;
   background: -webkit-linear-gradient(
     85deg,
     #116f32,
@@ -12,6 +12,8 @@
   padding: 2px;
   list-style: none;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 li {
@@ -20,6 +22,9 @@ li {
 
 .enviar {
   margin-top: 10px;
+  border-radius: 3px;
+  padding: 5px;
+  border: solid 1px black;
 }
 
 .enviar:hover {
@@ -29,11 +34,11 @@ li {
     #1db954
   ); /* Safari/Chrome */
   border-radius: 10px;
+  color: white;
 }
 
 .error {
   border: 1px solid rgb(126, 3, 3);
-  display: inline-block;
   border-radius: 10px;
   padding: 5px;
   color: rgb(126, 3, 3);
