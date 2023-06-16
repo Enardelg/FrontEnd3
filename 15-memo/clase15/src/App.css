@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-image: -webkit-linear-gradient(left, #d3e3f7,#5f83b1);
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  font-size: 300;
+}
+
+h2{
+  font-size: 500;
+}
+
+.calculadora{
+  background-image: -webkit-linear-gradient(bottom,  #d3e3f7,#5f83b1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgb(0, 0, 0), 0 0 5px rgb(196, 232, 244);
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.calculadora p{
+  margin-top: 40px;
+}
+
+.producto{
+  background-image: -webkit-linear-gradient(bottom,  #d3e3f7,#5f83b1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgb(0, 0, 0), 0 0 5px rgb(196, 232, 244);
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista{
+  list-style-type: none;
+}
+
+.calculadora{
+  background-image: -webkit-linear-gradient(bottom,  #d3e3f7,#5f83b1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgb(0, 0, 0), 0 0 5px rgb(196, 232, 244);
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.libro{
+    background-image: -webkit-linear-gradient(bottom,  #d3e3f7,#5f83b1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgb(0, 0, 0), 0 0 5px rgb(196, 232, 244);
+    margin-top: 15px;
+}
+
+.lista-libros{
+  list-style-type: none;
+}
