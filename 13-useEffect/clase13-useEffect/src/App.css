@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  background-image: -webkit-linear-gradient(bottom, rgb(90, 85, 85), black);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 500px;
+}
+
+h1{
+  font-weight: 500;
+  background-image: linear-gradient(to top, #e1590a, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: inset 0 0 10px rgb(0, 0, 0), 0 0 5px white;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.ej1{
+  background-image: -webkit-linear-gradient( top,#f6f6c9,#eeee65) ;
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1), 0 0 5px rgb(202, 202, 38);
+}
+
+.ej2{
+  background-image: -webkit-linear-gradient( top,#bad1c2,#9bda84) ;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1), 0 0 5px rgba(120, 246, 74, 0.905);
+}
+
+.change{
+  margin-top: 5px;
+}
+
+.change:hover{
+  background-image: -webkit-linear-gradient( top,#0d6b2e,#afdf9d) ;
+  border-radius: 5px;
+  color: rgb(5, 55, 2);
+  color:white;
+}
+
+.donTa{
+  margin-top: 10px;
+}
+
+.ej3{
+  background-image: -webkit-linear-gradient( top,#86a5a1,#4fa095);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1), 0 0 5px rgba(19, 226, 219, 0.905);
+}
+
+.submit{
+  margin-left: 10px;
+}
+
+.submit:hover{
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient( top,#0f5c52,#5de1d0);
+  color: white;
+}
+
+.ej3 p{
+  background-image: -webkit-linear-gradient( top,#b9e4df,#7ad3c7);
+  border-radius: 5px;
+  border:solid 1px black;
+  box-shadow: inset 0 0 0.5px rgba(0, 0, 0, 1), 0 0 3px rgba(3, 84, 81, 0.905);
+  color: black;
+}
+
+.ej4{
+  background-image: -webkit-linear-gradient( top,#5b78a3,#153462);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1), 0 0 5px rgba(58, 123, 243, 0.905);
+}
+
+.encargar:hover{
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient( top,#2b6bcd,#7ca3ec);
+  color: white;
+}
+
+.pedido{
+  color: white;
+}
+
+.cancelar:hover{
+  background-image: -webkit-linear-gradient( top,#540404,#eb7171);
+  border-radius: 5px;
+  color: white;
+}
