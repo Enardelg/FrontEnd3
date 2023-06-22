@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <section className='app'>
-        <Select className='select' defaultValue= "1" onChange={setEjNum}>
+        <Select className='selectp' defaultValue= "1" onChange={setEjNum}>
         <Select.Option value = "1" >Ejercicio 1</Select.Option>
         <Select.Option value = "2" >Ejercicio 2</Select.Option>
         </Select>

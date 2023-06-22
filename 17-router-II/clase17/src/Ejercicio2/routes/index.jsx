@@ -41,6 +41,7 @@ function Index() {
             {game.map((game) => (
                 <div className="filtro" key={game.id}>
                     <h2>Título: {game.name}</h2>
+                    <img src={game.imgUrl} alt="" />
                     <ul className="lista">
                         {game.tags.map((tag) => (
                             <li key={tag} >Género: {tag} </li>

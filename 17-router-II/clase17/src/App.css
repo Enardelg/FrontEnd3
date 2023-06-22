@@ -1,126 +1,153 @@
 body {
   text-align: center;
-  background: linear-gradient(94deg, #3a6ae2 , #e0c1ed );
+  background: linear-gradient(94deg, #3a6ae2, #e0c1ed);
   font-family: 'Roboto', sans-serif;
   justify-content: center;
   font-weight: 300;
-  }
+}
 
-  h2{
-    font-weight: 500;
-  }
+h2 {
+  font-weight: 500;
+}
+.selectp{
+  margin-top: 15px;
+  width: 10%;
+}
+.container {
+  background-image: linear-gradient(to right, #e3cef6, #7798ed);
+  margin: 150px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px rgb(0, 0, 0.5), 0 0 10px rgb(255, 255, 255);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
 
-  .container{
-    background-image: linear-gradient(to right, #e3cef6 ,#7798ed );
-    margin: 150px;
-    border-radius: 20px;
-    box-shadow: inset 0 0 10px rgb(0, 0, 0.5), 0 0 10px rgb(255, 255, 255);
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
+}
 
-  }
+.card-index {
+  box-shadow: 0 0 10px rgb(0, 0, 0.5);
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
 
-  .card-index{
-    box-shadow: 0 0 10px rgb(0, 0, 0.5);
-    margin-top: 50px;
-    border-radius: 20px;
-    padding: 20px;
-    width: 90%;
-    transform-style: preserve-3d;
-    transition: transform 0.5s ease-in-out;
-  }
+.card-index:hover {
+  transform: perspective(800px) translateX(3%);
+}
 
-  .card-index:hover{
-    transform: perspective(800px) translateX(3%);
-  }
+.link {
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 0 3px rgb(0, 0, 1);
+  padding: 10px;
+  border-radius: 10px;
+}
 
-  .link{
-    text-decoration: none;
-    color: inherit;
-    box-shadow: 0 0 3px rgb(0, 0, 1);
-    padding: 10px;
-    border-radius: 10px;
-  }
+.link:hover {
+  background: linear-gradient(to top, #e3cef6, #7798ed);
+  font-weight: 500;
+}
 
-  .link:hover{
-    background-image: linear-gradient(to top, #e3cef6 ,#7798ed );
-    font-weight: 500;
-  }
+.contain-link {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
 
-  .contain-link{
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
+.card-1 {
+  box-shadow: 0 0 10px rgb(0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+}
 
-  .card-1{
-      box-shadow: 0 0 10px rgb(0, 0, 0.5);
-      border-radius: 20px;
-      padding: 20px;
-      width: 60%;
-      margin: auto;
-      margin-top: 40px;
-  }
 
-  
-  .volver{
-    box-shadow: 0 0 3px rgb(0, 0, 1);
-    padding: 10px;
-    border-radius: 10px;
-  }
+.volver {
+  box-shadow: 0 0 3px rgb(0, 0, 1);
+  padding: 10px;
+  border-radius: 10px;
+}
 
-  .volver:hover{
-    background-image: linear-gradient(to top, #e3cef6 ,#7798ed );
-    font-weight: bold;
-  }
+.volver:hover {
+  background: linear-gradient(to top, #e3cef6, #7798ed);
+  font-weight: bold;
+}
 
-  .select{
-    margin-top: 20px;
-  }
+.select {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
 
-  .form{
-      box-shadow: 0 0 10px rgb(0, 0, 0.5);
-      border-radius: 20px;
-      padding: 20px;
-      padding-bottom: 25px;
-      width: 50%;
-      margin:auto;
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-end;
-  }
+.select:hover{
+  background: linear-gradient(to top, #e3cef6, #7798ed);
+  font-weight: bold;
+}
 
-  .card-game{
-      box-shadow: 0 0 10px rgb(0, 0, 0.5);
-      border-radius: 20px;
-      padding: 20px;
-      width: 50%;
-      margin:auto;
-      margin-top: 30px;
-  }
+input{
+  border-radius: 5px;
+  padding: 5px;
+}
 
-  .filtro{
-    box-shadow: 0 0 10px rgb(0, 0, 0.5);
-    border-radius: 20px;
-    padding: 20px;
-    width: 60%;
-    margin:auto;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px
-  }
+.form {
+  box-shadow: 0 0 10px rgb(0, 0, 0.5);
+  background: linear-gradient(to right, #e3cef6, #7798ed);
+  border-radius: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
 
-  .lista{
-    list-style-type: none;
-    padding: 0;
-    font-weight: 400;
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
+.card-game {
+  box-shadow: 0 0 10px rgb(0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
 
-  }
+.filtro {
+  box-shadow: 0 0 10px rgb(0, 0, 0.5);
+  background: linear-gradient(to right, #e3cef6, #7798ed);
+  border-radius: 20px;
+  padding: 40px;
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px
+}
+
+.lista {
+  list-style-type: none;
+  padding: 0;
+  font-weight: 400;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0.5);
+  transition: transform 3s;
+  width: 20%;
+}
+
+img:hover{
+  transform: scale(1.2)
+}
