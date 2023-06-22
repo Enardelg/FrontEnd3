@@ -60,6 +60,7 @@ h2 {
 
 .card-1 {
   box-shadow: 0 0 10px rgb(0, 0, 0.5);
+  background: linear-gradient(to right, #e3cef6, #7798ed);
   border-radius: 20px;
   padding: 20px;
   width: 60%;
