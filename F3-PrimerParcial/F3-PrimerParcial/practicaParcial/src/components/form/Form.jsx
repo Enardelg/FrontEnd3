@@ -47,8 +47,9 @@ const Form = ({onSubmit}) => {
       <h2>Formulario de Música</h2>
       <form onSubmit={handleSubmit}>
         <div className={styles.formGroup}>
-          <label htmlFor="artista">Artista:</label>
+
           <input
+            placeholder="Ingrese artista"
             type="text"
             id="artista"
             value={artista}
@@ -56,8 +57,8 @@ const Form = ({onSubmit}) => {
           />
         </div>
         <div className={styles.formGroup}>
-          <label htmlFor="cancion">Cancion:</label>
           <input
+            placeholder="Ingrese canción"
             type="text"
             id="cancion"
             value={cancion}
